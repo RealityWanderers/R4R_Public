@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4211055012047397256
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4507257658045594865}
+  - component: {fileID: 2150774468085833001}
+  m_Layer: 0
+  m_Name: ComponentManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4507257658045594865
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4211055012047397256}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2150774468085833001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4211055012047397256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9516f4d8d438f54390ee2af8279e6f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transform_XRRig: {fileID: 0}
+  transform_MainCamera: {fileID: 0}
+  transform_MainCameraOffset: {fileID: 0}
+  transform_Controller_L: {fileID: 0}
+  transform_Controller_R: {fileID: 0}
+  transform_PlayerFeet: {fileID: 0}
+  transform_PlayerBodyCollision: {fileID: 0}
+  playerCollider: {fileID: 0}
+  playerHandCollision_L: {fileID: 0}
+  playerHandCollision_R: {fileID: 0}
+  playerRB: {fileID: 0}
+  playerReticleController: {fileID: 0}
+  playerTeleporter: {fileID: 0}
+  playerRespawn: {fileID: 0}
+  playerRecenter: {fileID: 0}
+  playerCenterIndicator: {fileID: 0}
+  setRefreshRate: {fileID: 0}
+  playerUIOverclock: {fileID: 0}
+  playerUIActionChain: {fileID: 0}

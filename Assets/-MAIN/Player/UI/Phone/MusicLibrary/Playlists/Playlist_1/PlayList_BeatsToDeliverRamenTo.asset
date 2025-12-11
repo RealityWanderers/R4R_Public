@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 003e51b157ed07d4aabbc4e55934d25b, type: 3}
+  m_Name: PlayList_BeatsToDeliverRamenTo
+  m_EditorClassIdentifier: 
+  playListImage: {fileID: 2800000, guid: 0b39ec115529ec341afd06529b4f2210, type: 3}
+  playListName: BeatsToDeliverRamenTo
+  songs:
+  - filePath: 
+    audioClip: {fileID: 8300000, guid: 07376e465e1b3c642bb84fd9aa75d01a, type: 3}
+  - filePath: 
+    audioClip: {fileID: 8300000, guid: 9b12463ecc7bc344f981d8c1d9e7bcf7, type: 3}
+  - filePath: 
+    audioClip: {fileID: 8300000, guid: 41a3510f454c0254eb702ff18580e688, type: 3}
+  - filePath: 
+    audioClip: {fileID: 8300000, guid: 938f341b1b00877448f896577e87ecf8, type: 3}
+  - filePath: 
+    audioClip: {fileID: 8300000, guid: 44bb9fe2ede6dfa4cb0df04d733b62f5, type: 3}
+  - filePath: 
+    audioClip: {fileID: 8300000, guid: 40401dc576f361948ae057e6fee01abf, type: 3}
+  - filePath: 
+    audioClip: {fileID: 8300000, guid: 61168cdad43073c41a11d8d700702b11, type: 3}
+  - filePath: 
+    audioClip: {fileID: 8300000, guid: 685d3902cac62b94d93400ab71b9909b, type: 3}
+  - filePath: 
+    audioClip: {fileID: 8300000, guid: 563d9330343df414c83707158b3d20f7, type: 3}
+  - filePath: 
+    audioClip: {fileID: 8300000, guid: 59c0570087b79c841bb82168a8e78a4d, type: 3}
+  - filePath: 
+    audioClip: {fileID: 8300000, guid: 208ff2d9dcc0e5d419e3df0895abd4bb, type: 3}
