@@ -108,7 +108,7 @@ public class ScreenRenderPass : ScriptableRenderPass {
         }
 
 #if UNITY_2022_3_OR_NEWER
-        CommandBuffer cmd = renderingData.commandBuffer;
+        CommandBuffer cmd = CommandBufferPool.Get();
 #else
         CommandBuffer cmd = CommandBufferPool.Get();
 #endif
@@ -117,9 +117,7 @@ public class ScreenRenderPass : ScriptableRenderPass {
         using (new ProfilingScope(cmd, profilingSampler)) {
             if (requiresColor) {
 #if UNITY_2022_3_OR_NEWER
-                var source = passData.isBeforeTransparents
-                    ? cameraData.renderer.GetCameraColorBackBuffer(cmd)
-                    : cameraData.renderer.cameraColorTargetHandle;
+                RTHandle source = cameraData.renderer.cameraColorTargetHandle;
                 Blitter.BlitCameraTexture(cmd, source, copiedColor);
 #else
                 var source = cameraData.renderer.cameraColorTarget;
@@ -130,7 +128,8 @@ public class ScreenRenderPass : ScriptableRenderPass {
             }
 
 #if UNITY_2022_3_OR_NEWER
-            CoreUtils.SetRenderTarget(cmd, cameraData.renderer.GetCameraColorBackBuffer(cmd));
+            CoreUtils.SetRenderTarget(cmd, cameraData.renderer.cameraColorTargetHandle);
+            CoreUtils.DrawFullScreen(cmd, passMaterial);
 #else
             CoreUtils.SetRenderTarget(cmd, cameraData.renderer.cameraColorTarget);
 #endif
