@@ -11,7 +11,7 @@ If you’re curious to see it in action, check out the:
 
 This version of the project is **no longer actively developed**.
 
-That said, the repository is intentionally kept public and maintained as:
+That said, the repository is intentionally kept public as:
 - A **learning resource** for developers interested in movement systems specifically made for VR.
 - A reference for VR locomotion, skating physics, and momentum-based design.
 - A base for creating **custom levels, or experiments**.
