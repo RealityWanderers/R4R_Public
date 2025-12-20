@@ -3,7 +3,9 @@
 A fast-paced VR skating game built around speed, flow, and momentum.
 Heavily inspired by Sonic the Hedgehog and Jet Set Radio.
 
-If you’re curious to see it in action, check out the [Gameplay and DevLogs](https://youtube.com/playlist?list=PLQ3y7VoZK-4M_FGsmGoOwaoK2rG7UcLKG) and [Discord](http://discord.com/invite/zX2XRPvDt5).
+If you’re curious to see it in action, check out the
+🎥 [Gameplay & DevLogs](https://youtube.com/playlist?list=PLQ3y7VoZK-4M_FGsmGoOwaoK2rG7UcLKG) 
+💬 [Discord](http://discord.com/invite/zX2XRPvDt5)
 
 ## 🚧 Project Status:
 
@@ -14,15 +16,18 @@ That said, the repository is intentionally kept public and maintained as:
 - A reference for VR locomotion, skating physics, and momentum-based design.
 - A base for creating **custom levels, or experiments**.
 
-## 🛠 Using This Project
-
-You are welcome to:
-- Study the code.
-- Experiment with mechanics.
-- Create your own custom levels.
-- Build your own prototypes on top of it.
-
 Please see the [LICENSE](https://github.com/RealityWanderers/R4R_Public/tree/main?tab=License-1-ov-file) for details on what is and isn’t allowed. Especially regarding assets and third-party packages.
+
+## 🛠 Using This Project
+The easiest way to get this project up and running:
+- Download Unity Hub over at [Unity](https://unity.com/download).
+- In Unity Hub at the top right press ADD > ADD PROJECT FROM DISK.
+- You might get a notification that the Editor version is not installed. I recommend installing the exact editor version as otherwise issues might arise.
+- Open the project, initial import might take a while.
+- Open Assets > MAIN > Scenes > Level_0 (Other levels are unfinished, best to use this as a base for custom levels).
+- Experiment / Or copy the scene and make a custom level!
+
+- Something not working or want an explanation of something? Feel free to message me over at [Discord](http://discord.com/invite/zX2XRPvDt5)! 
 
 ## 🌍 Community & Support
 
