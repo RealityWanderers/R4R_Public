@@ -3,7 +3,7 @@
 A **fast-paced VR skating game** focused on speed, flow, and momentum. 
 Heavily inspired by **Sonic** and **Jet Set Radio**.
 
-Feel free to check out the [Gameplay and DevLogs](https://youtube.com/playlist?list=PLQ3y7VoZK-4M_FGsmGoOwaoK2rG7UcLKG) if you are interested in learning more.
+Feel free to check out the [Gameplay and DevLogs](https://youtube.com/playlist?list=PLQ3y7VoZK-4M_FGsmGoOwaoK2rG7UcLKG) and [Discord](http://discord.com/invite/zX2XRPvDt5) if you are interested in learning more.
 
 ## 🚧 Project Status:
 
