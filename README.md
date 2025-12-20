@@ -19,6 +19,7 @@ That said, the repository is intentionally kept public and maintained as:
 Please see the [LICENSE](https://github.com/RealityWanderers/R4R_Public/tree/main?tab=License-1-ov-file) for details on what is and isn’t allowed. Especially regarding assets and third-party packages.
 
 ## 🛠 Using This Project
+
 The easiest way to get this project up and running:
 - Download Unity Hub over at [Unity](https://unity.com/download).
 - In Unity Hub at the top right press ADD > ADD PROJECT FROM DISK.
@@ -27,7 +28,6 @@ The easiest way to get this project up and running:
 - Open Assets > MAIN > Scenes > Level_0 (Other levels are unfinished, best to use this as a base for custom levels).
 - Experiment / Or copy the scene and make a custom level!
 
-- 
 
 ## 🌍 Community & Support
 
