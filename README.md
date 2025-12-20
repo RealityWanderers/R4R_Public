@@ -1,15 +1,15 @@
 # 🛹 RAMEN4ROBOTS
 
-A **fast-paced VR skating game** focused on speed, flow, and momentum. 
-Heavily inspired by **Sonic** and **Jet Set Radio**.
+A fast-paced VR skating game built around speed, flow, and momentum.
+Heavily inspired by Sonic the Hedgehog and Jet Set Radio.
 
-Feel free to check out the [Gameplay and DevLogs](https://youtube.com/playlist?list=PLQ3y7VoZK-4M_FGsmGoOwaoK2rG7UcLKG) and [Discord](http://discord.com/invite/zX2XRPvDt5) if you are interested in learning more.
+If you’re curious to see it in action, check out the [Gameplay and DevLogs](https://youtube.com/playlist?list=PLQ3y7VoZK-4M_FGsmGoOwaoK2rG7UcLKG) and [Discord](http://discord.com/invite/zX2XRPvDt5).
 
 ## 🚧 Project Status:
 
 This version of the project is **no longer actively developed**.
 
-However, the repository is being shared intentionally as:
+That said, the repository is intentionally kept public and maintained as:
 - A **learning resource** for developers interested in movement systems specifically made for VR.
 - A reference for VR locomotion, skating physics, and momentum-based design.
 - A base for creating **custom levels, or experiments**.
@@ -22,21 +22,22 @@ You are welcome to:
 - Create your own custom levels.
 - Build your own prototypes on top of it.
 
-Please see the [LICENSE](https://github.com/RealityWanderers/R4R_Public/tree/main?tab=License-1-ov-file) section for details on what is and isn’t allowed, especially regarding assets and third-party packages.
+Please see the [LICENSE](https://github.com/RealityWanderers/R4R_Public/tree/main?tab=License-1-ov-file) for details on what is and isn’t allowed. Especially regarding assets and third-party packages.
 
 ## 🌍 Community & Support
 
-Even though this version is discontinued, development **has continued** on a spiritual successor.
-More information on that can be found over at the [Discord](http://discord.com/invite/zX2XRPvDt5).
-Which is also the place to be if you want:
-- Explanations of how the code works.
-- Design insights behind the movement systems.
-- To see what the **new version** of the project looks like.
-- Or just to hang out and chat with other people interested in Sonic and Jet Set Radio. 
+While this version is discontinued, development has continued in the form of a spiritual successor.
+More information, including explanations of the code and a look at the newer project can be found on the [Discord](http://discord.com/invite/zX2XRPvDt5).
+
+The Discord is also the place to be if you want:
+- Breakdowns of how specific systems work
+- Design insights behind the movement mechanics
+- A peek at the new iteration of the project
+- Or just to hang out with fellow Sonic and Jet Set Radio enjoyers
 
 ## ☕ **Ko-fi:**  
 
-If you’d like to support my work and future projects, you can also find me on:
+If you’d like to support my work and future projects, you can find me on:
 [KOFI](https://ko-fi.com/realitywanderer)
 
 
