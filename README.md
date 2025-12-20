@@ -40,7 +40,7 @@ If you’d like to support my work and future projects, you can find me on:
 [KOFI](https://ko-fi.com/realitywanderer)
 
 
-## ❤️ Credits
+## Credits
 
 Created by **Reality Wanderer**
 
