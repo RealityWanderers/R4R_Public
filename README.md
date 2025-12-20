@@ -27,12 +27,12 @@ The easiest way to get this project up and running:
 - Open Assets > MAIN > Scenes > Level_0 (Other levels are unfinished, best to use this as a base for custom levels).
 - Experiment / Or copy the scene and make a custom level!
 
-- Something not working or want an explanation of something? Feel free to message me over at [Discord](http://discord.com/invite/zX2XRPvDt5)! 
+- 
 
 ## 🌍 Community & Support
 
 While this version is discontinued, development has continued in the form of a spiritual successor.
-More information, including explanations of the code and a look at the newer project can be found on the [Discord](http://discord.com/invite/zX2XRPvDt5).
+Curious about this successor or is something not working and need assistance? Feel free to message me over at [Discord](http://discord.com/invite/zX2XRPvDt5)! 
 
 ## ☕ **Ko-fi:**  
 
