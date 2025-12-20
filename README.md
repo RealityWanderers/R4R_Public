@@ -34,12 +34,6 @@ The easiest way to get this project up and running:
 While this version is discontinued, development has continued in the form of a spiritual successor.
 More information, including explanations of the code and a look at the newer project can be found on the [Discord](http://discord.com/invite/zX2XRPvDt5).
 
-The Discord is also the place to be if you want:
-- Breakdowns of how specific systems work
-- Design insights behind the movement mechanics
-- A peek at the new iteration of the project
-- Or just to hang out with fellow Sonic and Jet Set Radio enjoyers
-
 ## ☕ **Ko-fi:**  
 
 If you’d like to support my work and future projects, you can find me on:
