@@ -4,8 +4,8 @@ A fast-paced VR skating game built around speed, flow, and momentum.
 Heavily inspired by Sonic the Hedgehog and Jet Set Radio.
 
 If you’re curious to see it in action, check out the
-🎥 [Gameplay & DevLogs](https://youtube.com/playlist?list=PLQ3y7VoZK-4M_FGsmGoOwaoK2rG7UcLKG) 
-💬 [Discord](http://discord.com/invite/zX2XRPvDt5)
+- 🎥 [Gameplay & DevLogs](https://youtube.com/playlist?list=PLQ3y7VoZK-4M_FGsmGoOwaoK2rG7UcLKG) 
+- 💬 [Discord](http://discord.com/invite/zX2XRPvDt5)
 
 ## 🚧 Project Status:
 
