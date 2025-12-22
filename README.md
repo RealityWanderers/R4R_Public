@@ -32,13 +32,17 @@ The easiest way to get this project up and running:
 ## 🌍 Community & Support
 
 While this version is discontinued, development has continued in the form of a spiritual successor.
-Curious about this successor or is something not working and need assistance? Feel free to message me over at [Discord](http://discord.com/invite/zX2XRPvDt5)! 
+Curious about this successor or is something not working and need assistance? Feel free to message me over at [Discord](http://discord.com/invite/zX2XRPvDt5)!
 
 ## ☕ **Ko-fi:**  
 
 If you’d like to support my work and future projects, you can find me on:
 [KOFI](https://ko-fi.com/realitywanderer)
 
+## ⚠️ Known Issues:
+
+-Functionality of the phone inside of Level_0 does not work correctly. Works fine in Level_1.
+-Overclock boost is bound to the forward left stick, which is also used by the phone menu navigation.
 
 ## Credits
 
