@@ -25,7 +25,7 @@ The easiest way to get this project up and running:
 - In Unity Hub at the top right press ADD > ADD PROJECT FROM DISK.
 - You might get a notification that the Editor version is not installed. I recommend installing the exact editor version as otherwise issues might arise.
 - Open the project, initial import might take a while.
-- Open Assets > MAIN > Scenes > Level_0 (Other levels are unfinished, best to use this as a base for custom levels).
+- Open Assets > MAIN > Scenes > Level_0 or Level_1 (Other scenes are unfinished, best to use this as a base for custom levels).
 - Experiment / Or copy the scene and make a custom level!
 
 
