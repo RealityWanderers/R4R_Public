@@ -41,8 +41,8 @@ If you’d like to support my work and future projects, you can find me on:
 
 ## ⚠️ Known Issues:
 
--Functionality of the phone inside of Level_0 does not work correctly. Works fine in Level_1.
--Overclock boost is bound to the forward left stick, which is also used by the phone menu navigation.
+- Functionality of the phone inside of Level_0 does not work correctly. Works fine in Level_1.
+- Overclock boost is bound to the forward left stick, which is also used by the phone menu navigation.
 
 ## Credits
 
