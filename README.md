@@ -45,18 +45,28 @@ Curious about this successor or is something not working and need assistance? Fe
 ## 🎮 Controls
 
 Movement:
-- Turning: R stick left and right or physically turning in real life. Level_0 shows an example for a menu to change turn type and turn settings.
-- Skate: Hold L or R grip and swing your arm.
-- Jump: Hold both L and R grip and swing your arms.
-- Air Dash: Hold both L and R grip and swing your arms while in the air.
-- Brake: Hold both L and R grip for a second to slow down.
+- Turning: <br />
+R stick left and right or physically turning in real life. Level_0 shows an example for a menu to change turn type and turn settings.
+- Skate: <br />
+Hold L or R grip and swing your arm.
+- Jump: <br />
+Hold both L and R grip and swing your arms.
+- Air Dash: <br />
+Hold both L and R grip and swing your arms while in the air.
+- Brake: <br />
+Hold both L and R grip for a second to slow down.
 
 Special:
-- Homing Attack: When the green indicator appears do an Air Dash motion. 
-- Overclock Boost: Press forward on the L stick to overclock when you have at least 1 battery segment filled.
-- Grab: Press and hold L or R grip when the grab indicator appears (only in level_1).
-- WallGrind: Jumping into a Billboard attaches you, hold L or R grip and push yourself off the wall to jump off. 
-- Phone: L stick click to open and close, L stick to navigate, Y to select an app. 
+- Homing Attack: <br />
+When the green indicator appears do an Air Dash motion. 
+- Overclock Boost: <br />
+Press forward on the L stick to overclock when you have at least 1 battery segment filled.
+- Grab: <br />
+Press and hold L or R grip when the grab indicator appears (only in level_1).
+- WallGrind: <br />
+Jumping into a Billboard attaches you, hold L or R grip and push yourself off the wall to jump off. 
+- Phone: <br />
+L stick click to open and close, L stick to navigate, Y to select an app. 
 
 ## ⚠️ Known Issues:
 
