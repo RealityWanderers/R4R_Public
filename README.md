@@ -44,21 +44,25 @@ Curious about this successor or is something not working and need assistance? Fe
 
 ## 🎮 Controls
 
-- Turn: R stick left and right. Level_0 shows an example for a menu to change turn type and turn settings.
+Movement:
+- Turning: R stick left and right or physically turning in real life. Level_0 shows an example for a menu to change turn type and turn settings.
 - Skate: Hold L or R grip and swing your arm.
 - Jump: Hold both L and R grip and swing your arms.
 - Air Dash: Hold both L and R grip and swing your arms while in the air.
-- Homing Attack: When the green indicator appears do an Air Dash motion. 
 - Brake: Hold both L and R grip for a second to slow down.
+
+Special:
+- Homing Attack: When the green indicator appears do an Air Dash motion. 
 - Overclock Boost: Press forward on the L stick to overclock when you have at least 1 battery segment filled.
 - Grab: Press and hold L or R grip when the grab indicator appears (only in level_1).
-- WallGrind: Jumping into a wall attaches you, hold L or R grip and push yourself off the wall to jump off. 
+- WallGrind: Jumping into a Billboard attaches you, hold L or R grip and push yourself off the wall to jump off. 
 - Phone: L stick click to open and close, L stick to navigate, Y to select an app. 
 
 ## ⚠️ Known Issues:
 
 - Functionality of the phone inside of Level_0 does not work correctly. Works fine in Level_1.
 - Overclock boost is bound to the forward left stick, which is also used by the phone menu navigation.
+- While holding a grabbable object you slowly slide down.
 
 ## Credits
 
