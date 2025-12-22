@@ -3,7 +3,7 @@
 A fast-paced VR skating game built around speed, flow, and momentum.
 Heavily inspired by Sonic the Hedgehog and Jet Set Radio.
 
-![Why_I_Had_to_Rebuild_My_Entire_Indie_VR_Game_From_Scratch](https://github.com/user-attachments/assets/7f6b7b1b-13ca-447d-a108-73befb839999)
+https://github.com/user-attachments/assets/2f111e9d-f808-4e2a-b8f0-16a309cf8e21
 
 If you’re curious to see it in action, check out the:
 - 🎥 [Gameplay & DevLogs](https://youtube.com/playlist?list=PLQ3y7VoZK-4M_FGsmGoOwaoK2rG7UcLKG) 
