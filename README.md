@@ -48,9 +48,11 @@ Curious about this successor or is something not working and need assistance? Fe
 - Skate: Hold L or R grip and swing your arm.
 - Jump: Hold both L and R grip and swing your arms.
 - Air Dash: Hold both L and R grip and swing your arms while in the air.
-- Brake: Hold both L and R grip for a second to slow down
+- Homing Attack: When the green indicator appears do an Air Dash motion. 
+- Brake: Hold both L and R grip for a second to slow down.
 - Overclock Boost: Press forward on the L stick to overclock when you have at least 1 battery segment filled.
-- Grab: Press and hold L or R grip when the grab indicator appears (only in level_1)
+- Grab: Press and hold L or R grip when the grab indicator appears (only in level_1).
+- WallGrind: Jumping into a wall attaches you, hold L or R grip and push yourself off the wall to jump off. 
 - Phone: L stick click to open and close, L stick to navigate, Y to select an app. 
 
 ## ⚠️ Known Issues:
