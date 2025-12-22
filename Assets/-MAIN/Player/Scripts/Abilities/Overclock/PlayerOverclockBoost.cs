@@ -72,21 +72,21 @@ public class PlayerOverclockBoost : PlayerAbility
     private bool hasReleased = false; 
     void Update()
     {
-        //if (pI.stickAxis_Y_L <= 0.5f)
-        //{
-        //    hasReleased = true;
-        //    //Debug.Log("Released");
-        //}
+        if (pI.stickAxis_Y_L <= 0.5f)
+        {
+            hasReleased = true;
+            //Debug.Log("Released");
+        }
 
-        //if (hasReleased && pI.stickAxis_Y_L >= 0.5f)
-        //{
-        //    //Debug.Log("Held");
-        //    if (!isOverclocked && overclockData.currentReadySegments > 0f)
-        //    {
-        //        StartCoroutine(StartOverclock());
-        //    }
-        //    hasReleased = false; // Reset so it doesn't trigger repeatedly
-        //}
+        if (hasReleased && pI.stickAxis_Y_L >= 0.5f)
+        {
+            //Debug.Log("Held");
+            if (!isOverclocked && overclockData.currentReadySegments > 0f)
+            {
+                StartCoroutine(StartOverclock());
+            }
+            hasReleased = false; // Reset so it doesn't trigger repeatedly
+        }
 
         if (isOverclocked && Time.time > overclockTimeStamp + overClockDuration)
         {
