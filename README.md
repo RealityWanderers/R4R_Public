@@ -46,10 +46,10 @@ Curious about this successor or is something not working and need assistance? Fe
 
 - Turn: R stick left and right. Level_0 shows an example for a menu to change turn type and turn settings.
 - Skate: Hold L or R grip and swing your arm.
-- Jump: Hold Both L and R grip and swing your arm.
-- Air Dash: Hold Both L and R grip and swing your arm while in the air.
+- Jump: Hold both L and R grip and swing your arms.
+- Air Dash: Hold both L and R grip and swing your arms while in the air.
 - Brake: Hold both L and R grip for a second to slow down
-- Overclock Boost: Press Forward on the L stick to overclock when you have at least 1 battery segment filled.
+- Overclock Boost: Press forward on the L stick to overclock when you have at least 1 battery segment filled.
 - Grab: Press and hold L or R grip when the grab indicator appears (only in level_1)
 - Phone: L stick click to open and close, L stick to navigate, Y to select an app. 
 
