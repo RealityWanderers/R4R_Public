@@ -9,12 +9,18 @@ If you’re curious to see it in action, check out the:
 - 🎥 [Gameplay & DevLogs](https://youtube.com/playlist?list=PLQ3y7VoZK-4M_FGsmGoOwaoK2rG7UcLKG) 
 - 💬 [Discord](http://discord.com/invite/zX2XRPvDt5)
 
+A ready to play PC and Quest build can be found here:
+- 🎮 [Play the Game](https://ko-fi.com/realitywanderer/shop)
+  
+If you’d like to support my work and future projects, you can find me on:
+- [☕Ko-fi](https://ko-fi.com/realitywanderer)
+
 ## 🚧 Project Status:
 
 This version of the project is **no longer actively developed**.
 
 That said, the repository is intentionally kept public as:
-- A **learning resource** for developers interested in movement systems specifically made for VR.
+- A **learning resource** for developers interested in VR movement systems.
 - A reference for VR locomotion, skating physics, and momentum-based design.
 - A base for creating **custom levels, or experiments**.
 
@@ -36,10 +42,16 @@ The easiest way to get this project up and running:
 While this version is discontinued, development has continued in the form of a spiritual successor.
 Curious about this successor or is something not working and need assistance? Feel free to message me over at [Discord](http://discord.com/invite/zX2XRPvDt5)!
 
-## ☕ **Ko-fi:**  
+## 🎮 Controls
 
-If you’d like to support my work and future projects, you can find me on:
-[KOFI](https://ko-fi.com/realitywanderer)
+- Turn: R stick. Level_0 shows an example for a menu to change turn type and turn settings.
+- Skate: Hold L/R grip and swing your arm.
+- Jump: Hold Both L+R grip and swing your arm.
+- Air Dash: Hold Both L+R grip and swing your arm while in the air.
+- Brake: Hold both L+R grip for a second to slow down
+- Overclock Boost: Press Forward on the L stick to overclock when you have at least 1 battery segment filled.
+- Grab: Press and hold L/R grip when the grab indicator appears (only in level_1)
+- Phone: L stick click to open and close, L stick to navigate, Y to select an app. 
 
 ## ⚠️ Known Issues:
 
