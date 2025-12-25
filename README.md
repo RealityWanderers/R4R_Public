@@ -45,7 +45,7 @@ Please see the [LICENSE](https://github.com/RealityWanderers/R4R_Public/tree/mai
 ## 🌍 Community & Support
 
 While this version is discontinued, development has continued in the form of a spiritual successor.
-Curious about this successor or is something not working and need assistance? Check out my youtube channel [RealityWanderer](https://www.youtube.com/@RealityWanderer/videos) Or feel free to message me over on [Discord](http://discord.com/invite/zX2XRPvDt5)!
+Curious about this successor or is something not working and need assistance? Check out my youtube channel [RealityWanderer](https://www.youtube.com/@RealityWanderer/videos). Or feel free to message me over on [Discord](http://discord.com/invite/zX2XRPvDt5)!
 
 ## 🎮 Controls
 
