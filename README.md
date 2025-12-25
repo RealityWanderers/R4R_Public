@@ -28,11 +28,16 @@ Please see the [LICENSE](https://github.com/RealityWanderers/R4R_Public/tree/mai
 
 ## 🛠 Using This Project
 
-The easiest way to get this project up and running:
+- Press Download ZIP here:
+<img width="596" height="457" alt="image" src="https://github.com/user-attachments/assets/53549325-c2dd-4b71-a867-72bb4d3e9743" />
+
 - Download Unity Hub over at [Unity](https://unity.com/download).
 - In Unity Hub at the top right press ADD > ADD PROJECT FROM DISK.
 - You might get a notification that the Editor version is not installed. I recommend installing the exact editor version as otherwise issues might arise.
 - Open the project, initial import might take a while.
+- A Fast reload window might pop up, you can close this. 
+- Changes to OVR Plugin detected >  Press Restart Editor.
+- Project validation > you might see various yellow and red warnings, these can be ignored as some of these are false. Pressing fix might break some parts of the project. So you can close this. 
 - Open Assets > MAIN > Scenes > Level_0 or Level_1 (Other scenes are unfinished, best to use this as a base for custom levels).
 - Experiment / Or copy the scene and make a custom level!
 
