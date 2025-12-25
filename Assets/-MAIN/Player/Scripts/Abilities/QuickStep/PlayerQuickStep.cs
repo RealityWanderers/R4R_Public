@@ -10,6 +10,7 @@ public class PlayerQuickStep : PlayerAbility
     [ReadOnly] public bool quickStepStarted;
     [ReadOnly] public bool quickStepCompleted;
     [ReadOnly] private bool isQuickStepping = false;
+    public bool quickStepEnabled;
     private float currentQuickStepSpeed = 0;
     private float quickStepTimeStamp;
     private Vector3 quickStepDirection;
@@ -92,24 +93,27 @@ public class PlayerQuickStep : PlayerAbility
         float triggerValue_L = pI.triggerValue_L;
         float triggerValue_R = pI.triggerValue_R;
 
-        //if (!holding_Trigger_L && triggerValue_L > TriggerButtonThreshold)
-        //{
-        //    holding_Trigger_L = true;
-        //}
-        //else
-        //{
-        //    holding_Trigger_L = false;
-        //}
+        if (quickStepEnabled)
+        {
+            if (!holding_Trigger_L && triggerValue_L > TriggerButtonThreshold)
+            {
+                holding_Trigger_L = true;
+            }
+            else
+            {
+                holding_Trigger_L = false;
+            }
 
-        //if (!holding_Trigger_R && triggerValue_R > TriggerButtonThreshold)
-        //{
-        //    holding_Trigger_R = true;
-        //}
-        //else
-        //{
-        //    holding_Trigger_R = false;
-        //}
-
+            if (!holding_Trigger_R && triggerValue_R > TriggerButtonThreshold)
+            {
+                holding_Trigger_R = true;
+            }
+            else
+            {
+                holding_Trigger_R = false;
+            }
+        }
+        
         //Overwrite to false if both triggers are held.
         if (triggerValue_L > TriggerButtonThreshold && triggerValue_R > TriggerButtonThreshold)
         {
