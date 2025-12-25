@@ -78,6 +78,7 @@ L stick click to open and close, L stick to navigate, Y to select an app.
 - Functionality of the phone inside of Level_0 does not work correctly. Works fine in Level_1.
 - Overclock boost is bound to the forward left stick, which is also used by the phone menu navigation.
 - While holding a grabbable object you slowly slide down.
+- Quick Step is enabled in Level_0 but not in Level_1, this is a bool you can toggle in the QuickStep ability script but the RamenBox throw is bound to the same action in Level_1 so keep that in mind. 
 
 ## Credits
 
