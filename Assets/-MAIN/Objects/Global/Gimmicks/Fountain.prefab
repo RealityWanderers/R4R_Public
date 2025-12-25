@@ -1079,6 +1079,8 @@ MeshRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1100,9 +1102,11 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &759995327501517048
 MeshFilter:
@@ -1917,6 +1921,8 @@ MeshRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1938,9 +1944,11 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &1725153542106527600
 MeshFilter:
@@ -2054,12 +2062,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 224736c14314cb242ba52e5b930a21db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onStateChange:
+  onTriggerEnter:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 8375583501881824470}
         m_TargetAssemblyTypeName: PlayerAddForce, Assembly-CSharp
-        m_MethodName: AddForce
+        m_MethodName: StartAddForce
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2069,33 +2077,14 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 4051527713300672443}
-        m_TargetAssemblyTypeName: AddToActionChain, Assembly-CSharp
-        m_MethodName: DoAddToActionChain
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 8934309153611468508}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+  onTriggerExit:
+    m_PersistentCalls:
+      m_Calls: []
   checkForPlayer: 1
-  onCooldown: 0
+  checkForHand: 0
+  checkForHomingAttack: 0
   cooldownDuration: 0.5
+  onCooldown: 0
 --- !u!114 &8375583501881824470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2108,17 +2097,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abafb670c759e394dbb74fc26c39f5e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resetQuickDashCharges: 1
   forwardForceAmount: 6
+  forwardForceDelay: 0
   upwardsForceAmount: 12
+  upwardsForceDelay: 0
+  currentForceDirection: 0
+  resetQuickDashCharges: 1
   resetVelocity: 1
-  freezeFrames: 0.1
+  tempDisableGravity: 0
+  tempDisableGravityDuration: 0.3
+  tempDisableCameraSteer: 0
+  tempDisableCameraSteerDuration: 0.5
+  freezeFrameDuration: 0.05
+  loopInterval: 0.01
+  currentlyLooping: 0
   IncreaseSpeedCap: 0
   speedCapIncreaseMulti: 0
   speedCapIncreaseDuration: 0.5
-  currentForceDirection: 0
-  tempDisableGravity: 0
-  tempDisableGravityDuration: 0.3
   cooldownDuration: 0.5
   onCoolDown: 0
 --- !u!114 &4051527713300672443
@@ -2143,7 +2138,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 305749fc8e5ad9a42a7a50f752f43808, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 305749fc8e5ad9a42a7a50f752f43808, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.4
@@ -3004,6 +2999,8 @@ MeshRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3025,9 +3022,11 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &3781264661871913959
 MeshFilter:
